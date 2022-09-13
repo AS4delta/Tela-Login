@@ -4,6 +4,9 @@ body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
+body * {
+    box-sizing: border-box;
+}
 
 .main-login{
     width: 100vw;
@@ -115,5 +118,29 @@ body {
     }
 }
 @media only screen and (max-width: 600px){
-   
+   .main-login{
+        flex-direction: column;
+   }
+
+   .left-login > h1{
+        display: none;
+   }
+
+   .left-login{
+    width: 100%;
+    height: auto;
+   }
+
+   .right-login{
+    width: 100%;
+    height: auto;
+   }
+
+   .left-image{
+    width: 50vh;
+   }
+
+   .card-login{
+    width: 50%;
+   }
 }
