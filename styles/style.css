@@ -42,4 +42,60 @@ body {
     flex-direction: column;
     padding: 30px 35px;
     background: #44803F;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #1e351c;
 } 
+
+.card-login{
+   color: #B4CF66;
+   font-weight: 800;
+   margin: 0;
+} 
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #B4CF66;
+    color: rgb(27, 112, 35);
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #1e351c;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: #B4CF66;
+    margin-bottom: 10px;
+}
+
+.textfield > input :: placeholder{
+    color: #f0ffff94;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #146152;
+    background: #B4CF66;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px #1e351c;
+    
+
+}
