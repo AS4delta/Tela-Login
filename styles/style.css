@@ -11,7 +11,7 @@ body * {
 .main-login{
     width: 100vw;
     height: 100vh;
-    background: #146152;
+    background: #146551;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ body * {
 
 
 .left-login > h1 {
-    color: #B4CF66;
+    color: aliceblue;
     font-size: 3vw;
 }
 
@@ -52,13 +52,13 @@ body * {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #44803F;
+    background: #146551;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #1e351c;
 } 
 
 .card-login{
-   color: #B4CF66;
+   color: aliceblue;
    font-weight: 800;
    margin: 0;
 } 
@@ -77,7 +77,7 @@ body * {
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: #B4CF66;
+    background: aliceblue;
     color: rgb(27, 112, 35);
     font-size: 12pt;
     box-shadow: 0px 10px 40px #1e351c;
@@ -86,7 +86,7 @@ body * {
 }
 
 .textfield > label{
-    color: #B4CF66;
+    color: aliceblue;
     margin-bottom: 10px;
 }
 
@@ -105,7 +105,7 @@ body * {
     font-weight: 800;
     letter-spacing: 3px;
     color: #146152;
-    background: #B4CF66;
+    background: aliceblue;
     cursor: pointer;
     box-shadow: 0px 10px 40px #1e351c;
 
